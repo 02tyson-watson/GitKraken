@@ -1,6 +1,23 @@
 package com.company;
 
 public class Main {
+    public static void rollASix() {
+        int rollDice = 0;
+
+        while (rollDice != 6) {
+            rollDice = (int) (Math.random() * 6 + 1);
+            System.out.println("You rolled: " + rollDice);
+
+            if (rollDice == 3) {
+                break;
+            }
+        }
+        if (rollDice == 6) {
+            System.out.println("You Win!!!");
+        } else {
+            System.out.println("You Lose");
+        }
+    }
 
     public static void main(String[] args) {
         for(int i=0; i<3; i++){
@@ -9,5 +26,6 @@ public class Main {
                 System.out.println("\tInner Loop " + j + ": Hi Everyone!"); // \t will indent my print statement
             }
         }
+        rollASix();
     }
 }
