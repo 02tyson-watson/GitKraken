@@ -15,7 +15,7 @@ public class Main {
         if (rollDice == 6) {
             System.out.println("You Win!!!");
         } else {
-            System.out.println("You Lose");
+            System.out.println("You Lose.");
         }
     }
     public static void countBlocks(int levels) {
