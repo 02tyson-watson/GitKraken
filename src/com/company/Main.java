@@ -33,7 +33,7 @@ public class Main {
                 System.out.println("\tInner Loop " + j + ": Hi Everyone!"); // \t will indent my print statement
             }
         }
-        rollASix()
+        rollASix();
         countBlocks(7);
     }
 }
