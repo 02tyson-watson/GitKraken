@@ -1,6 +1,15 @@
 package com.company;
 
 public class Main {
+    public static void google(){
+        String googol = "1";
+        int len = googol.length();
+        while(len<101){
+            googol = googol + "0";
+            len = googol.length();
+            System.out.print(googol + "\n");
+        }
+    }
 
     public static void countBlocks(int levels) {
         int total = 0;
