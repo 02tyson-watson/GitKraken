@@ -44,5 +44,6 @@ public class Main {
         }
         rollASix();
         countBlocks(7);
+        google();
     }
 }
